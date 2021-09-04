@@ -3,5 +3,30 @@ h1{
   font-weight: 300;
 }
 .navi{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: stretch;
+  color: white;
 
+}
+.container{
+
+}
+.signupLink{
+  margin-left: 25px;
+}
+a{
+  color: white;
+}
+.glasContainer{
+  padding: 30px;
+  border: 1px solid;
+  border-radius: 25px;
+  background: rgba(255,255,255,0.1);
+}
+::ng-deep .mat-ink-bar{
+  background-color: white !important;
+  margin-bottom: 40px;
 }

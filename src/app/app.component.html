@@ -1,15 +1,24 @@
-<div>
-  <header>
-    <div class="logo">
-      <h1>gymNote</h1>
+
+  <div>
+    <header>
+      <div class="logo">
+        <h1>gymNote</h1>
+      </div>
+    </header>
+  </div>
+  <div class="container">
+    <div class="glasContainer">
+      <div>
+        <div class="navi">
+          <mat-tab-group>
+            <mat-tab label="Login"> <a routerLink="/login" routerLinkActive="active"></a> </mat-tab>
+            <mat-tab label="Signup"> <a routerLink="/signup" routerLinkActive="active" class="signupLink"></a> </mat-tab>
+          </mat-tab-group>
+        </div>
+      </div>
+      <router-outlet></router-outlet>
     </div>
-  </header>
+
 </div>
 
-<div>
-    <div class="navi">
-      <a routerLink="/login" routerLinkActive="active">Login</a>
-      <a routerLink="/signup" routerLinkActive="active">Signup</a>
-    </div>
-</div>
-<router-outlet></router-outlet>
+
