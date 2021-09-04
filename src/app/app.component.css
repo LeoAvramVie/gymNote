@@ -3,5 +3,21 @@ h1{
   font-weight: 300;
 }
 .navi{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: stretch;
+  color: white;
 
+}
+.container{
+  display: grid;
+  justify-content: center;
+}
+.signupLink{
+  margin-left: 25px;
+}
+a{
+  color: white;
 }

@@ -1,15 +1,19 @@
-<div>
-  <header>
-    <div class="logo">
-      <h1>gymNote</h1>
-    </div>
-  </header>
-</div>
 
-<div>
+  <div>
+    <header>
+      <div class="logo">
+        <h1>gymNote</h1>
+      </div>
+    </header>
+  </div>
+  <div class="container">
+  <div>
     <div class="navi">
       <a routerLink="/login" routerLinkActive="active">Login</a>
-      <a routerLink="/signup" routerLinkActive="active">Signup</a>
+      <a routerLink="/signup" routerLinkActive="active" class="signupLink">Signup</a>
     </div>
+  </div>
+  <router-outlet></router-outlet>
 </div>
-<router-outlet></router-outlet>
+
+

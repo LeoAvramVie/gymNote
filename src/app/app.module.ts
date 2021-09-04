@@ -8,6 +8,7 @@ import { SignupComponent } from './authentication/signup/signup.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatIconModule} from "@angular/material/icon";
+import {MatInputModule} from "@angular/material/input";
 
 
 @NgModule({
@@ -17,14 +18,15 @@ import {MatIconModule} from "@angular/material/icon";
     SignupComponent,
 
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatFormFieldModule,
-    MatIconModule,
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MatFormFieldModule,
+        MatIconModule,
+        MatInputModule,
 
-  ],
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
