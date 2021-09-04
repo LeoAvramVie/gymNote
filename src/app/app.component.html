@@ -7,13 +7,16 @@
     </header>
   </div>
   <div class="container">
-  <div>
-    <div class="navi">
-      <a routerLink="/login" routerLinkActive="active">Login</a>
-      <a routerLink="/signup" routerLinkActive="active" class="signupLink">Signup</a>
+    <div class="glasContainer">
+      <div>
+        <div class="navi">
+          <a routerLink="/login" routerLinkActive="active">Login</a>
+          <a routerLink="/signup" routerLinkActive="active" class="signupLink">Signup</a>
+        </div>
+      </div>
+      <router-outlet></router-outlet>
     </div>
-  </div>
-  <router-outlet></router-outlet>
+
 </div>
 
 

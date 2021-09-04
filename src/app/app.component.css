@@ -12,12 +12,17 @@ h1{
 
 }
 .container{
-  display: grid;
-  justify-content: center;
+
 }
 .signupLink{
   margin-left: 25px;
 }
 a{
   color: white;
+}
+.glasContainer{
+  padding: 30px;
+  border: 1px solid;
+  border-radius: 25px;
+  background: rgba(255,255,255,0.1);
 }
