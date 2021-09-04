@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatIconModule} from "@angular/material/icon";
 import {MatInputModule} from "@angular/material/input";
+import {MatTabsModule} from "@angular/material/tabs";
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import {MatInputModule} from "@angular/material/input";
         MatFormFieldModule,
         MatIconModule,
         MatInputModule,
+        MatTabsModule,
 
     ],
   providers: [],
