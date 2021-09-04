@@ -19,16 +19,17 @@ import {MatTabsModule} from "@angular/material/tabs";
     SignupComponent,
 
   ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        BrowserAnimationsModule,
-        MatFormFieldModule,
-        MatIconModule,
-        MatInputModule,
-        MatTabsModule,
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatFormFieldModule,
+    MatIconModule,
+    MatInputModule,
+    MatTabsModule,
 
-    ],
+
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
